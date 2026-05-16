@@ -1,0 +1,53 @@
+
+        .jarvis-board-container {
+          width: 450px !important;
+          height: 450px !important;
+          position: relative;
+        }
+        @media (min-width: 640px) {
+          .jarvis-board-container {
+            width: 500px !important;
+            height: 500px !important;
+          }
+        }
+        .jarvis-board-container .cg-wrap {
+          width: 100% !important;
+          height: 100% !important;
+          position: relative;
+          display: block !important;
+        }
+        .jarvis-board-container cg-board {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100% !important;
+          height: 100% !important;
+          display: block !important;
+          box-sizing: content-box;
+        }
+        .jarvis-board-container piece {
+          position: absolute;
+          width: 12.5% !important;
+          height: 12.5% !important;
+          background-size: cover !important;
+          background-repeat: no-repeat;
+          background-position: center;
+          display: block !important;
+          z-index: 2;
+          will-change: transform;
+        }
+        /* CDN Fallbacks for Vector Pieces */
+        .jarvis-board-container piece.pawn.white { background-image: url('https://lichess1.org/assets/piece/cburnett/wP.svg') !important; }
+        .jarvis-board-container piece.knight.white { background-image: url('https://lichess1.org/assets/piece/cburnett/wN.svg') !important; }
+        .jarvis-board-container piece.bishop.white { background-image: url('https://lichess1.org/assets/piece/cburnett/wB.svg') !important; }
+        .jarvis-board-container piece.rook.white { background-image: url('https://lichess1.org/assets/piece/cburnett/wR.svg') !important; }
+        .jarvis-board-container piece.queen.white { background-image: url('https://lichess1.org/assets/piece/cburnett/wQ.svg') !important; }
+        .jarvis-board-container piece.king.white { background-image: url('https://lichess1.org/assets/piece/cburnett/wK.svg') !important; }
+        .jarvis-board-container piece.pawn.black { background-image: url('https://lichess1.org/assets/piece/cburnett/bP.svg') !important; }
+        .jarvis-board-container piece.knight.black { background-image: url('https://lichess1.org/assets/piece/cburnett/bN.svg') !important; }
+        .jarvis-board-container piece.bishop.black { background-image: url('https://lichess1.org/assets/piece/cburnett/bB.svg') !important; }
+        .jarvis-board-container piece.rook.black { background-image: url('https://lichess1.org/assets/piece/cburnett/bR.svg') !important; }
+        .jarvis-board-container piece.queen.black { background-image: url('https://lichess1.org/assets/piece/cburnett/bQ.svg') !important; }
+        .jarvis-board-container piece.king.black { background-image: url('https://lichess1.org/assets/piece/cburnett/bK.svg') !important; }
+        .jarvis-board-container piece.dragging { z-index: 10 !important; }
+      
