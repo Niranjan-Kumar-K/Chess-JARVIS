@@ -1,0 +1,3 @@
+"C:\Users\Arvind M\miniconda3\Scripts\activate.bat"
+conda activate chess-jarvis
+git init

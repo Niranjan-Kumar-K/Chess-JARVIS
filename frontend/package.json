@@ -17,7 +17,8 @@
     "lucide-react": "^1.14.0",
     "postcss": "^8.5.14",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "stockfish": "^18.0.7"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
